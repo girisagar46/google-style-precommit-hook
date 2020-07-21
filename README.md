@@ -7,8 +7,8 @@ Usage:
 repos:
 - repo: https://github.com/girisagar46/google-style-precommit-hook
   rev: v1.0
-    hooks:
-      - id: google-style-java
+  hooks:
+  - id: google-style-java
 ```
 
 *Note*: this file stores Google's code style formatter jar in a `.cache/`
