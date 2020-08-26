@@ -1,6 +1,6 @@
 -   id: google-style-java
     name: Google Java Code Style for Java
-    description: Formats code in google-java-format-1.8
+    description: Formats Java source code with google-java-format-<version>. Version is defined as GJF_VERSION in format-code.sh
     entry: ./format-code.sh
     language: script
     files: \.java$ # We don't technically need this, as the script will filter for us, but this will allow the hook to be skipped if no Java is changed.
